@@ -89,4 +89,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>artifactory</id>
+			<name>artifactory</name>
+			<url>${artifactory_url}</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
